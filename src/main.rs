@@ -25,7 +25,7 @@ fn build_ui(app: &Application) {
         .expect("Failed to load application window from resource");
     setup_actions(&window);
     app.add_window(&window);
-    window.present();
+    window.present()
 }
 
 fn setup_actions(window: &ApplicationWindow) {
