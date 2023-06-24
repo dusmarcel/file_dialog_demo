@@ -47,7 +47,6 @@ fn setup_actions(window: &ApplicationWindow) {
                 .downcast::<Label>()
                 .unwrap();
             label.set_text(&text);
-            println!("{}", text);
         }));
     }));
     window.add_action(&action_open);
